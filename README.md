@@ -27,9 +27,10 @@ After evaluation, I stick with the following model:
 * Conditions: existing client (authentication), new balance
 
 #### TDD & BDD (develoment cycle)
-For "existing client", I build a test case, should_client_existing in AccountTest, by using an existing record in the database "pierre-jean".
+In this section, I explain each test cases designed from user requirements:
+* For "existing client", I build a test case, should_client_existing in AccountTest, by using an existing record in the database "pierre-jean".
 
-For "withdraw", I build a test case, should_new_balance_is_no_negative in MyPageTest, by widthdrawing "100 EUR" on an account "90 EUR". 
+* For "withdraw", I build a test case, should_new_balance_is_no_negative in MyPageTest, by widthdrawing "100 EUR" on an account "90 EUR". 
 
 I run these tests and correct the code if they fail, repeat until all tests are successful.
 

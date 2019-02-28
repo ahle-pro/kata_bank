@@ -12,7 +12,7 @@ Feature: Withdraw from account
   * When he withdraws 10.0 EUR from his account
   * Then the new balance is 90.0 EUR
 
-### How do I implement the application from user requirements ?
+### How do I model the application from user requirements ?
 Firstly, I use the textual analysis method (Abott) to identify the candidate items for my model element (UML).
 After evaluation, I stick with the model element:
 Model component: class 

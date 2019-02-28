@@ -1,5 +1,5 @@
 # KATA bank
-Simulation of a banking system written in Java for KATA
+Simulation of a banking system written in Java for KATA.
 
 ### Prerequisites
 * Reading: https://cucumber.io/school
@@ -25,6 +25,8 @@ After evaluation, I stick with the following model:
 * Operation or Use case: Withdraw implemented in MyPage class, existing client implemented in Authentication class
 * Instance: "pierre-jean" (lastname of client) , 10, 90 (value of balance)
 * Conditions: existing client (authentication), new balance
+
+For sake of simplicity, think this application as an ATM
 
 #### TDD & BDD (develoment cycle)
 In this section, I explain each test cases designed from user requirements:

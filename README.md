@@ -16,11 +16,10 @@ Feature: Withdraw from account
 Firstly, I use the textual analysis method (Abott) to identify the candidate items for my model element (UML).
 After evaluation, I stick with the model element:
 Model component: class 
-* Actor: client represented in Account class
-* Object: Balance
-* Property: Balance (10.0, 90.0)
-* Operation: Withdraw
-* Instance: pierre-jean, 10, 90
+* Actor: client represented in Account table
+* Object: balance represented in Balance table (10.0, 90.0)
+* Operation or Use case: Withdraw implemented in MyPage class, existing client implemented in Authentication class
+* Instance: "pierre-jean" (lastname of client) , 10, 90 (value of balance)
 
 # TDD Test-driven develoment cycle
 

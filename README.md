@@ -23,7 +23,7 @@ After evaluation, I stick with the following model:
 * Actor: client represented in Account table
 * Object: balance represented in Balance table (90.0)
 * Operation or Use case: Withdraw implemented in MyPage class, existing client implemented in Authentication class
-* Instance: "pierre-jean" (lastname of client) , 10 (withdrawal amount)
+* Instance: "pierre-jean" (name of client) , 10 (withdrawal amount)
 * Conditions: existing client (authentication), new balance
 
 For sake of simplicity, think this application as an ATM

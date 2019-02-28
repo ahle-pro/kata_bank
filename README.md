@@ -21,9 +21,9 @@ Firstly, I use the textual analysis method (Abbott) to identify the candidate it
 After evaluation, I stick with the following model:
 [Model component: class] 
 * Actor: client represented in Account table
-* Object: balance represented in Balance table (10.0, 90.0)
+* Object: balance represented in Balance table (90.0)
 * Operation or Use case: Withdraw implemented in MyPage class, existing client implemented in Authentication class
-* Instance: "pierre-jean" (lastname of client) , 10, 90 (value of balance)
+* Instance: "pierre-jean" (lastname of client) , 10 (withdrawal amount)
 * Conditions: existing client (authentication), new balance
 
 For sake of simplicity, think this application as an ATM

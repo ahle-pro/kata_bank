@@ -33,6 +33,11 @@ For "withdraw", I build a test case, should_new_balance_is_no_negative in MyPage
 
 I run these tests and correct the code if they fail, repeat until all tests are successful.
 
+### Known issues
+* Level of detail in this scenario is low
+* Code is developped in pure Java without automation => slow
+
+
 ### Author
 * Anh-Hoang LE
 

@@ -26,14 +26,14 @@ After evaluation, I stick with the following model:
 * Instance: "pierre-jean" (lastname of client) , 10, 90 (value of balance)
 * Conditions: existing client (authentication), new balance
 
-### TDD & BDD (develoment cycle)
+#### TDD & BDD (develoment cycle)
 For "existing client", I build a test case, should_client_existing in AccountTest, by using an existing record in the database "pierre-jean".
 
 For "withdraw", I build a test case, should_new_balance_is_no_negative in MyPageTest, by widthdrawing "100 EUR" on an account "90 EUR". 
 
 I run these tests and correct the code if they fail, repeat until all tests are successful.
 
-### Known issues
+#### Known issues
 * Level of detail in this scenario is low
 * Code is developped in pure Java without automation => slow
 

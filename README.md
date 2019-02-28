@@ -30,7 +30,7 @@ For sake of simplicity, think this application as an ATM
 
 #### TDD & BDD (develoment cycle)
 In this section, I explain each test cases designed from user requirements:
-* For "existing client", add *should_client_existing* in AccountTest, by using an existing record in the database "pierre-jean".
+* For "existing client", add *should_client_exists* in AccountTest, by using an existing record in the database "pierre-jean".
 
 * For "withdraw", add *should_new_balance_is_no_negative* in MyPageTest, by widthdrawing "100 EUR" on an account "90 EUR". 
 

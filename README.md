@@ -38,7 +38,7 @@ In this section, I explain each test cases designed from user requirements:
 
 I run these tests and correct the code if they fail, repeat until all tests are successful.
 
-```
+```feature
 Scenario Outline: A user withdraws money from an ATM
 
 Given <Name> has a valid Credit or Debit card

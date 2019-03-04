@@ -30,13 +30,8 @@ After evaluation, I stick with the following model:
 
 For sake of simplicity, think this application as an ATM
 
-#### TDD & BDD (develoment cycle)
-In this section, I explain each test cases designed from user requirements:
-* For "existing client", add *should_client_exists* in AccountTest, by using an existing record in the database "pierre-jean".
-
-* For "withdraw", add *should_new_balance_is_no_negative* in MyPageTest, by widthdrawing "100 EUR" on an account "90 EUR". 
-
-I run these tests and correct the code if they fail, repeat until all tests are successful.
+#### BDD (develoment cycle)
+BDD is an extension to TDD. As you can see, the requirements are still in low level of detail. In order to have more detail, in Cucumber method, we organize a little meeting among 3 amigos (tester, developer, product owner) and we did a good stuff, called "example mapping" to have an "shared understanding" and produce an "ubiquitous language" for this tiny project.
 
 ```feature
 Scenario Outline: A user withdraws money from an ATM
@@ -60,6 +55,17 @@ And their account balance is <NewBalance>
       | Ed     | 1000            | 200              | 800        |
 
 ```
+
+With the help of cucumber plugin
+I run these tests and correct the code if they fail, repeat until all tests are successful.
+
+
+
+
+
+
+
+
 
 
 #### Known issues

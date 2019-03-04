@@ -1,5 +1,5 @@
 # KATA bank
-Simulation of a banking system written in Java for KATA.
+Practice code (kata) about a banking system written in Java using BDD.
 
 ### Prerequisites
 * Reading: https://cucumber.io/school

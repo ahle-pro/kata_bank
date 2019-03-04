@@ -18,21 +18,12 @@ Feature: Withdraw from account
 ```
 
 This scenario is written in Gherkin language.
-### How do I model the application from user requirements ?
-Firstly, I use the textual analysis method (Abbott) to identify the candidate items for my model element (UML).
-After evaluation, I stick with the following model:
-[Model component: class] 
-* Actor: client represented in Account table
-* Object: balance represented in Balance table (90.0)
-* Operation or Use case: Withdraw implemented in MyPage class, existing client implemented in Authentication class
-* Instance: "pierre-jean" (name of client) , 10 (withdrawal amount)
-* Conditions: existing client (authentication), new balance
 
-For sake of simplicity, think this application as an ATM
 
 #### BDD (develoment cycle)
 BDD is an extension to TDD. As you can see, the requirements are still in low level of detail. In order to have more detail, in Cucumber method, we organize a little meeting among 3 amigos (tester, developer, product owner) and we did a good stuff, called "example mapping" to have an "shared understanding" and produce an "ubiquitous language" for this tiny project.
 
+After the meeting, we resolved a user story "withdraw" and its output are the expected test cases and a low tech language for everyone. So cool until now, thank god.
 ```feature
 Scenario Outline: A user withdraws money from an ATM
 
@@ -56,24 +47,22 @@ And their account balance is <NewBalance>
 
 ```
 
-With the help of cucumber plugin
-I run these tests and correct the code if they fail, repeat until all tests are successful.
+With the help of cucumber plugin, we got the generated test cases in Java.
+Now, as a developer I feel very comfortable to code my application and put the developed interface into the body of test cases.
 
+I will run these tests and correct my code if they fail, repeat until all tests are successful.
 
+### Without BDD, how do I model the application from user requirements ?
+Firstly, I use the textual analysis method (Abbott) to identify the candidate items for my model element (UML).
+After evaluation, I stick with the following model:
+[Model component: class] 
+* Actor: client represented in Account table
+* Object: balance represented in Balance table (90.0)
+* Operation or Use case: Withdraw implemented in MyPage class, existing client implemented in Authentication class
+* Instance: "pierre-jean" (name of client) , 10 (withdrawal amount)
+* Conditions: existing client (authentication), new balance
 
-
-
-
-
-
-
-
-#### Known issues
-* Level of detail in this scenario is low
-* Code is developped in pure Java without automation => slow
-
+For sake of simplicity, think this application as an ATM
 
 ### Author
 * Anh-Hoang LE
-
-

@@ -64,7 +64,8 @@ Based on the exercise scenario and the result of our example mapping (BDD), we c
 
 
 
-### Conceptual class diagram
+### Domain model/Conceptual model in simplest form
+
 ![Conceptual class model](/images/conceptual_class_model.png)
 
 

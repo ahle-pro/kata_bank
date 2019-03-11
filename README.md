@@ -52,6 +52,20 @@ Now, as a developer I feel very comfortable to code my application and put the d
 
 I will run these tests and correct my code if they fail, repeat until all tests are successful.
 
+### DDD (Tackling the complexity of software development)
+
+Domain driven design (DDD) is an approach to software development based on two main principles:
+1. The primary focus of a software project should be the domain itself and not the technical details
+2. Complex domain design should be based on a model.
+
+Based on the exercise scenario and the result of our example mapping (BDD), we could easily identify some elements in our domain model:
+1. Entities: Customer or Client and Account
+2. Value Objects: WithdrawalAmount, OriginalBalance, NewBalance
+
+
+
+
+
 ### Without BDD, how do I model the application from user requirements ?
 Firstly, I use the textual analysis method (Abbott) to identify the candidate items for my model element (UML).
 After evaluation, I stick with the following model:

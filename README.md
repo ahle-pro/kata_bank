@@ -62,7 +62,7 @@ Based on the exercise scenario and the result of our example mapping (BDD), we c
 1. Entities: Customer or Client and Account
 2. Value Objects: WithdrawalAmount, OriginalBalance, NewBalance
 
-
+![Conceptual class model](/images/conceptual_class_model.png)
 
 
 

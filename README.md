@@ -59,7 +59,7 @@ Domain driven design (DDD) is an approach to software development based on two m
 2. Complex domain design should be based on a model.
 
 Based on the exercise scenario and the result of our example mapping (BDD), we could easily identify some elements in our domain model:
-1. Entities: Customer or Client and Account
+1. Entities: Account and Withdraw (transation)
 2. Value Objects: WithdrawalAmount, OriginalBalance, NewBalance
 
 ![Conceptual class model](/images/conceptual_class_model.png)

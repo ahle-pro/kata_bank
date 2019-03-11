@@ -66,7 +66,10 @@ Based on the exercise scenario and the result of our example mapping (BDD), we c
 
 ### Domain model/Conceptual model in simplest form
 In the figure, it's the "conceptual" class diagram used to represent the domain model.
-In implementation model, the class diagram should be more detail and in domain model, only the names and the relations between the concepts (classes) are required.
+In implementation model, the class diagram should be more detail. 
+
+And in domain model, only the names and the relations between the concepts (classes) are required.
+
 ![Conceptual class model](/images/conceptual_class_model.png)
 
 

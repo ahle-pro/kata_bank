@@ -62,6 +62,9 @@ Based on the exercise scenario and the result of our example mapping (BDD), we c
 1. Entities: Account and Withdraw (transation)
 2. Value Objects: WithdrawalAmount, OriginalBalance, NewBalance
 
+
+
+### Conceptual class diagram
 ![Conceptual class model](/images/conceptual_class_model.png)
 
 

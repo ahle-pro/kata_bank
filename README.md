@@ -2,9 +2,11 @@
 Practice code (kata) about a banking system written in Java using BDD.
 
 ### Prerequisites
-* Reading: 
-** https://cucumber.io/school
-** Domain Driven Design 
+* Reading:
+
+  * https://cucumber.io/school
+
+  * Domain Driven Design 
 
 ### Exercise
 ```feature

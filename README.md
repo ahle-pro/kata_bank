@@ -72,10 +72,12 @@ Based on the exercise scenario and the result of our example mapping (BDD), we c
 Due to the simplicity of scenario, no layered architecture and context mapping is used in this kata.
 
 ### Domain model/Conceptual model in simplest form
-In the figure, it's the "conceptual" class diagram used to represent the domain model.
+In the figure, it's the "conceptual" class diagram used to represent the domain model. 
+This diagram is made by Visual Paradisgm based on text analysis tool.
+
 In implementation model, the class diagram should be more detail. 
 
-And in domain model, only the names and the relations between the concepts (classes) are required.
+In domain model, only the names and the relations between the concepts (classes) are required.
 We also got an ubiquitous language now !!!
 
 ![Conceptual class model](/images/conceptual_class_model.png)

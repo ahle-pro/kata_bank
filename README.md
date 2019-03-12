@@ -86,6 +86,14 @@ The "true" domain model should be represented by many views (diagrams, specifica
 We still miss some views here (i.e. sequence diagrams)
 But the real magic when combine DDD & BDD is that we could run the test cases automatically to control the quality of code with the scenarios written in our ubiquitous lanquage.
 
+![Conceptual class model](/images/test_cases1.png)
+
+### Multithread problems in many JVM
+To secure the problem multithreads scaled on many JVMs, there are many ways to deal with this:
+1. Manual synchronisation: File lock
+2. Using databases: terra, redis, halzecast
+
+
 ### Text analysis
 Firstly, I use the textual analysis method (Abbott) to identify the candidate items for my model element (UML).
 After evaluation, I stick with the following model:

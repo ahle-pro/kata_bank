@@ -2,7 +2,9 @@
 Practice code (kata) about a banking system written in Java using BDD.
 
 ### Prerequisites
-* Reading: https://cucumber.io/school
+* Reading: 
+** https://cucumber.io/school
+** Domain Driven Design 
 
 ### Exercise
 ```feature
@@ -86,7 +88,7 @@ The "true" domain model should be represented by many views (diagrams, specifica
 We still miss some views here (i.e. sequence diagrams)
 But the real magic when combine DDD & BDD is that we could run the test cases automatically to control the quality of code with the scenarios written in our ubiquitous lanquage.
 
-![Conceptual class model](/images/test_cases1.png)
+![JUnit results](/images/testcases1.png)
 
 ### Multithread problems in many JVM
 To secure the problem multithreads scaled on many JVMs, there are many ways to deal with this:

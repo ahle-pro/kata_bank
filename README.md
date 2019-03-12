@@ -62,10 +62,11 @@ Domain driven design (DDD) is an approach to software development based on two m
 Based on the exercise scenario and the result of our example mapping (BDD), we could easily identify some elements in our domain model:
 1. Entities: Account and Widthdraw (transaction)
 2. Aggregates: Widthdraws
-3. Value Objects: WithdrawalAmount, OriginalBalance, NewBalance
+3. Value Objects: WithdrawalAmount (Cash), OriginalBalance, NewBalance, Name
 4. Repositories: ATM application (just a name). In real scenario, it should be a database.
 5. Factory: ATM application. In real scenario, it should be a "transaction logging system".
-6. Service: ATM application. In real scenario, it should be many systems (SWIFT, ebanking, etc...)
+6. Service: ATM application. In real scenario, it could be any banking system (SWIFT, ebanking, etc...)
+7. Modules: None (or Withdraw, checking the credit card)
 
 #### Supple design 
 Due to the simplicity of scenario, no layered architecture and context mapping is used in this kata.
@@ -75,7 +76,7 @@ In the figure, it's the "conceptual" class diagram used to represent the domain 
 In implementation model, the class diagram should be more detail. 
 
 And in domain model, only the names and the relations between the concepts (classes) are required.
-We got an ubiquitous language now !!!
+We also got an ubiquitous language now !!!
 
 ![Conceptual class model](/images/conceptual_class_model.png)
 

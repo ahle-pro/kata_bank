@@ -65,9 +65,9 @@ Based on the exercise scenario and the result of our example mapping (BDD), we c
 1. Entities: Account and Widthdraw (transaction)
 2. Aggregates: Widthdraws
 3. Value Objects: WithdrawalAmount (Cash), OriginalBalance, NewBalance, Name
-4. Repositories: ATM application (just a name). In real scenario, it should be a database.
-5. Factory: ATM application. In real scenario, it should be a "transaction logging system".
-6. Service: ATM application. In real scenario, it could be any banking system (SWIFT, ebanking, etc...)
+4. Repositories: Bank Repo (just a name). In real scenario, it should be a database.
+5. Factory: Bank Factory. In real scenario, it should be a "transaction logging system".
+6. Service: Withdraw. In real scenario, it could be any banking system (SWIFT, ebanking, etc...)
 7. Modules: None (or Withdraw, checking the credit card)
 
 #### Supple design 

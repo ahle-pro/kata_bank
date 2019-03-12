@@ -88,7 +88,7 @@ The "true" domain model should be represented by many views (diagrams, specifica
 We still miss some views here (i.e. sequence diagrams)
 But the real magic when combine DDD & BDD is that we could run the test cases automatically to control the quality of code with the scenarios written in our ubiquitous lanquage.
 
-![JUnit results](/images/testcases1.png)
+![JUnit results](/images/testcases1.PNG)
 
 ### Multithread problems in many JVM
 To secure the problem multithreads scaled on many JVMs, there are many ways to deal with this:

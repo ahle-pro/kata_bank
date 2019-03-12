@@ -95,7 +95,14 @@ But the real magic when combine DDD & BDD is that we could run the test cases au
 ### Multithread problems in many JVM
 To secure the problem multithreads scaled on many JVMs, there are many ways to deal with this:
 1. Manual synchronisation: File lock
+ * Cons: It doesn't scale well when a lot of requests hits the resources
+ * Pros: Easier to work in tiny project or on mobile devices
 2. Using databases: terra, redis, halzecast
+ * Cons: Eventual consistency, in-memory it could expensive
+ * Pros: It could scale well in future
+3. Using scale for concurrent requests and schronyzation
+ * Cons: 
+ * Pros: 
 
 
 ### Text analysis

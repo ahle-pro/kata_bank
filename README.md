@@ -18,7 +18,7 @@ Feature: Withdraw from account
 ```
 
 This scenario is written in Gherkin language.
-
+For sake of simplicity, think this application as an ATM.
 
 #### BDD (develoment cycle)
 BDD is an extension to TDD. As you can see, the requirements are still in low level of detail. In order to have more detail, in Cucumber method, we organize a little meeting among 3 amigos (tester, developer, product owner) and we did a good stuff, called "example mapping" to have an "shared understanding" and produce an "ubiquitous language" for this tiny project.
@@ -84,17 +84,15 @@ We also got an ubiquitous language now !!!
 
 
 
-### Without BDD, how do I model the application from user requirements ?
+### Text analysis
 Firstly, I use the textual analysis method (Abbott) to identify the candidate items for my model element (UML).
 After evaluation, I stick with the following model:
 [Model component: class] 
 * Actor: client represented in Account table
 * Object: balance represented in Balance table (90.0)
-* Operation or Use case: Withdraw implemented in MyPage class, existing client implemented in Authentication class
+* Operation or Use case: Withdraw
 * Instance: "pierre-jean" (name of client) , 10 (withdrawal amount)
-* Conditions: existing client (authentication), new balance
-
-For sake of simplicity, think this application as an ATM
+* Conditions: existing client (authentication)
 
 ### Author
 * Anh-Hoang LE

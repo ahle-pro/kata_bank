@@ -82,7 +82,8 @@ We also got an ubiquitous language now !!!
 
 ![Conceptual class model](/images/conceptual_class_model.png)
 
-
+The "true" domain model should be represented by many views (diagrams, specifications, requirement text, etc...)
+We still miss some views here.
 
 ### Text analysis
 Firstly, I use the textual analysis method (Abbott) to identify the candidate items for my model element (UML).

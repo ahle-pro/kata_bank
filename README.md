@@ -106,17 +106,7 @@ To secure the problem multithreads scaled on many JVMs, there are many ways to d
 
 ### Immutability
 
-
-
-### Text analysis
-Firstly, I use the textual analysis method (Abbott) to identify the candidate items for my model element (UML).
-After evaluation, I stick with the following model:
-[Model component: class] 
-* Actor: client represented in Account table
-* Object: balance represented in Balance table (90.0)
-* Operation or Use case: Withdraw
-* Instance: "pierre-jean" (name of client) , 10 (withdrawal amount)
-* Conditions: existing client (authentication)
+TODO
 
 ### Author
 * Anh-Hoang LE
